@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",//geri dosyaya erişirken defalt .. dır karışmaması için değiştiriyorum
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}

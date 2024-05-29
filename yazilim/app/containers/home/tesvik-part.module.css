@@ -1,0 +1,64 @@
+
+  .element{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px 40px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Kart içeriğini dikey olarak ortala */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    overflow-y: hidden;
+  }
+  .element:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+.element.active {
+    transform: scale(1.5);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10; /* Büyütülmüş kartın üstte görünmesini sağlar */
+    position: relative; /* Diğer kartların üstüne çıkmasını sağlar */
+    font-size: x-small;
+    overflow-y:auto ;
+  }
+  
+  .p_name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .p_age,
+  .p_year {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .p_desc {
+    font-size: 0.9em;
+    color: #555;
+  }
+  @media screen and (max-width:843px){
+    .element{
+      margin: 25px 16px;
+    }
+    .element.active {
+      transform: scale(1.2);
+    }
+  }
+  @media screen and (max-width:742px){
+    .element{
+      margin: 10px 16px;
+    }
+    .element.active {
+      transform: scale(1.3);
+    }
+  }

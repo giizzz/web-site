@@ -1,0 +1,31 @@
+.vid_container{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.vid_parts{
+    margin: aouto;
+    text-align: center; 
+}
+iframe{
+    margin:5px auto;
+} 
+h2{
+    color: #00200b;
+    text-shadow: 1px 1px #529161;
+}
+@media screen and (max-width:959px) {
+    iframe{
+        margin: 7px auto;
+        height:260px ;
+        width:480px ;
+    }
+}
+@media screen and (max-width:480px){
+    iframe{
+        margin: 10px auto;
+        height: 195px;
+        width: 360px;
+    }
+}

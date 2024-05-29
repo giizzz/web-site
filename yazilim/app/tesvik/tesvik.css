@@ -1,0 +1,20 @@
+.outer-contnr {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .baslik{
+    display: flex;
+    width: fit-content;
+  }
+  
+  .sect {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-between;
+  }

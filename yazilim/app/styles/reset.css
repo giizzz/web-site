@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    color: #fff;
+    line-height: 1.5;
+}
+img,
+video,
+picture,
+svg{
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea{
+    font: inherit;
+}
+p,h1,h2,h3,h4,h5,h6{
+    overflow-wrap: break-word;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

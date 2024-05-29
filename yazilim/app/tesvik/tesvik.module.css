@@ -1,0 +1,65 @@
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Kart içeriğini dikey olarak ortala */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow-y: hidden;
+  
+}
+/* .card::-webkit-scrollbar{
+  color: aqua;// araştır düzenle
+} */
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card.active {
+  transform: scale(1.5);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  z-index: 10; /* Büyütülmüş kartın üstte görünmesini sağlar */
+  position: relative; /* Diğer kartların üstüne çıkmasını sağlar */
+  font-size: x-small;
+  overflow-y:auto ;
+}
+
+.p_name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.p_age,
+.p_year {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.p_desc {
+  font-size: 0.9em;
+  color: #555;
+}
+@media screen and (max-width:800px){
+  .list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .card{
+    margin: 20px;
+  }
+}

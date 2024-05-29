@@ -1,0 +1,36 @@
+.foot{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height:500px;
+    background:rgb(82, 145, 97);
+    color: rgb(0, 32, 11);
+}
+#contact .contact-form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_section{
+    margin-top:5px;
+}
+
+.contact-us{
+    display:flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.btn-form{
+    border: 1px rgb(0, 32, 11) solid ;
+}
+.btn-form:hover{
+    text-shadow: 1px 1px rgb(82, 145, 97);
+    border:1.5px rgb(0, 32, 11) solid;
+}
+
+/* .contact-us title{
+    border: 1px solid rgb(0, 32, 11);
+    border-radius: 10px;
+} */

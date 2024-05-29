@@ -1,0 +1,22 @@
+*{
+    margin: auto;
+}
+.outer-box{
+    display: flex;
+    flex-direction: column
+}
+.title{
+    color:#00200b;
+}
+h1{
+    font-style: oblique;
+    
+}
+h2{
+    font-style: italic;
+}
+p{    
+    word-wrap: break-word;
+}
+
+/* background:rgb(82, 145, 97); */
